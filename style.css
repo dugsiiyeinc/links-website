@@ -284,6 +284,96 @@ body{
 }
 
 
+.steps{
+    background-color: #fff;
+    padding: 2.375rem;
+    border-top: 1px solid #bebbbb; 
+    margin-top: 7.75rem;
+    /* margin-top: 30px; */
+}
+
+.BLOGS{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+   
+}
+
+
+.icons{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+   
+    /* flex-direction: column; */
+}
+
+
+
+.steps .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.intro h1{
+    font-size: 2rem;
+}
+
+.intro p{
+    color: #ababab;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+}
+
+.steps .icone2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3125rem;
+    width: 3rem;
+    height: 3rem;  
+    background-color: #dbdbdb;
+    border-radius: 50px;
+}
+
+.steps .icone2 .fa-solid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #969696;
+    text-align: center;
+}
+
+.icons .step{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    /* align-items: center; */
+}
+
+.steps .step span{
+    color: #ababab;
+    font-size: 0.75rem;
+}
+
+.icons .arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #b0b0b0;
+}
+
+
+
 
 
 @media(max-width:767px){
@@ -388,6 +478,36 @@ body{
         flex-direction: column;
         margin-left: 0rem;
         gap:2.625rem ;
+    }
+
+    .intro h1{
+        font-size: 1rem;
+    }
+    .intro p{
+         
+        color: #ababab;
+       font-size: 0.75rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .steps{
+        background-color: #fff;
+        /* padding: 2.375rem; */
+        border-top: 1px solid #bebbbb;
+
+        /* margin-top: 30px; */
+    }
+    .BLOGS{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 0rem;
     }
 
 }
