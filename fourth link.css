@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins';
+
+}
+ 
+.top-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3125rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+}
+.logo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 3.125rem;
+    height: 3.125rem;
+    background-color:#24afb5;
+    border-radius: 50%;
+    margin: 0.3125rem;
+
+}
+
+.logo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.375rem;
+    height: 0.625rem;
+    /* background: transparent #fff; */
+    margin: 0.8125rem;
+    border-radius: 3px;
+    /* padding: 3px 0px; */
+}
+
+.triangle1{
+
+    background: #FFFFFF;
+    /* mix-blend-mode: normal; */
+    opacity: 0.8;
+    
+    
+}
+
+.triangle2{
+    position: absolute;
+    top: 0.5rem;
+    background: #FFFFFF;
+   /* mix-blend-mode: normal; */
+   opacity: 0.8;
+
+    /* position: absolute;
+    top: 14px;
+     */
+}
+
+.triangle3{
+    position: absolute;
+    top: 1rem;
+
+    background: #FFFFFF;
+    /* mix-blend-mode: normal; */
+    opacity: 0.8;
+
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+
+.top{
+    display: flex;
+    gap: 1.5625rem;
+    margin-right: 20px;
+  
+    
+}
+
+.top li{
+    list-style: none;
+}
+
+.top a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    line-height: 0.75rem;
+
+}
+
+.Blog2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    margin-top:2rem ;
+    padding: 2.375rem;
+    background-color: #fff;
+    border-top: 1px solid #bebbbb;
+}
+.section{
+    margin-top: 1rem;
+}
+
+  .section .img1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 9.375rem;
+    height: 6.25rem;
+    background-color: #dbdbdb;
+}
+
+
+
+.section .img1 .fa-image{
+    color: #969696;
+}
+
+.section .date{
+    font-size: 0.625rem;
+    color: #ababab;
+}
+
+.section .pragraph{
+    font-size: 0.875rem;
+    color: #b5b5b5;
+    margin-top: 0.3125rem;
+}
+
+.reaction{
+    color: #969696;
+    gap: 0.3125rem;
+    display: flex;
+    margin-top: 0.3125rem;
+}
+
+.reaction .views{
+    
+    display: flex;
+}
+
+.reaction .comments{
+    display: flex;
+}
+
+.actions{
+    padding: 5rem 1rem;
+    background-color: #fff;
+    border-top: 1px solid #bebbbb;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    /* margin-top: 3.125rem; */
+   
+}
+
+.container  h1{
+    /* margin-top: 10px; */
+    font-size: 1.5rem;
+}
+
+.container p{
+    margin-top: 0.625rem;
+    /* margin-top: 0.625rem; */
+    font-size: 1rem;
+    color: #585757;
+}
+.container span{
+    margin-top: 0.625rem;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.inputEmail{
+    display: flex;
+    gap: 0.3125rem;
+    margin-top: 0.625rem;
+}
+.container #email{
+    display: flex;
+    padding: 0rem 0.3125rem;
+    border: 1px solid #b0b0b0;
+}
+
+.container .inputEmail button{
+    background-color: #24afb5;
+    border: none;
+    padding: 0.625rem;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+@media(max-width:767px){
+    .top{
+        display: none;
+    }
+
+    .Blog2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
+        margin-top:2rem ;
+        padding: 2.375rem;
+        background-color: #fff;
+        border-top: 1px solid #bebbbb;
+
+    }
+    .container p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       text-align: center;
+       font-size: 1rem;
+    }
+
+    .inputEmail{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.25rem;
+        margin-top: 0.625rem;
+    }
+
+    .inputEmail #email{
+        padding: 0.625rem;
+    }
+}
